@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+/* nav  */
+.navbar-brand{
+	font-size: 23px;
+	font-family:monospace;
+	font-weight: bold;
+}
+.nav-link {
+    padding-left: 16px;
+	font-size: 18px;
+}
+
+.collapse{
+	justify-content: right;
+	text-align: right;
+}
+/* nav end  */
+
+/* container  */
+.container-fluid h1{
+	color: #3c80b8;
+	letter-spacing: 0.2px;
+	font-family: raleway;
+	font-size: 75px;
+}
+.container-fluid h3{
+    color: #7e848a;
+    letter-spacing: 0.5px;
+    font-family: raleway;
+    padding: 12px;
+    font-size: 45px;
+}
+.container-fluid p{
+    color: #7e848a;
+    font-family: raleway;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 36px;
+    margin: -20px 44px;
+}
+.container-fluid .img img{
+	width: 400px;
+	height: 310px;
+	opacity: 0.4;
+}
+.container-fluid .row img{
+	width: 250px;
+	height: 250px;
+	padding: 25px;
+}
+
+
+.intro{
+	background: #d8dce0;
+}
+h1{
+	color: #4C4B4B;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+/* container end  */
+/* footer  */
+footer{
+	color:#586776;
+	background-color:#EAF0F1;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+	align-items: center;
+	text-align: center;
+}
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
